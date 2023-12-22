@@ -1,0 +1,660 @@
+* {
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  height: 100px;
+}
+
+/* Start Global Classes */
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* End Global Classes */
+
+/* Start Nav Bar */
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+img {
+  padding: 15px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 8px;
+  margin: 10px;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.link-1 {
+  color: mediumaquamarine;
+}
+
+nav a:hover {
+  color: mediumaquamarine;
+}
+
+button {
+  padding: 14px 8.4px 14px 8.4px;
+  margin: 18px;
+  background-color: blue;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-family: sans-serif;
+  border: 2px solid blue;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+button:hover {
+  background-color: darkblue;
+}
+
+.left {
+  padding: 14.5px 28.5px;
+}
+
+.left h1 {
+  font-size: 4.5rem;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.left p {
+  font-size: 0.9rem;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.9;
+  color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.btn-1 {
+  padding: 1rem 2rem;
+  margin: 18px;
+  background-color: darkblue;
+  color: white;
+  font-size: 1rem;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  border: 2px solid blue;
+  border-radius: 6px;
+}
+
+.btn-1:hover {
+  background-color: chocolate;
+  border: 2px solid chocolate;
+}
+
+.btn-2 {
+  padding: 1rem 2rem;
+  margin: -7px;
+  background-color: white;
+  color: darkblue;
+  border: 3.5px solid blue;
+  font-size: 1rem;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-2:hover {
+  background-color: chocolate;
+  border: 2px solid chocolate;
+  color: white;
+}
+
+.right {
+  padding: 2rem;
+}
+
+.right img {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 515px;
+}
+
+/* Start Hero Section */
+
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* End Hero Section */
+
+/* Start What We Do Section */
+
+.what-we-do {
+  padding: 2rem 0;
+  background-color: #2554ed;
+}
+
+.what-we-do .main-title {
+  color: white;
+  font-weight: bold;
+  font-size: 4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.boxes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.boxes .box {
+  background-color: #0074ff;
+  border-radius: 5px;
+  padding: 0 2rem;
+}
+
+.boxes .box img {
+  width: 95px;
+  margin: 0 6.5rem;
+}
+
+.boxes .box .br-1 {
+  margin: 0 7.3rem;
+}
+
+.boxes .box h1 {
+  color: white;
+  font-weight: 100;
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.boxes .box p {
+  color: white;
+  font-weight: 100;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* End What We Do Section */
+
+/* Start Hero Section */
+
+.titel {
+  font-size: 3.5rem;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.titel h1 {
+  margin: 1.5rem 0;
+}
+
+.paragphes p {
+  font-size: 16.5px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #6b718f;
+}
+
+p span {
+  color: #6b717a;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.image {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 0 -2px;
+  margin: -57rem 0 0;
+}
+
+.image img {
+  width: 515px;
+}
+
+/* End Hero Section */
+
+/* Start Small Section */
+
+.main-image {
+  display: flex;
+  justify-content: flex-start;
+  align-items: end;
+  margin: 26.5rem 0 0 -23px;
+}
+
+.main-image img {
+  margin-top: 1.5rem;
+}
+
+.main-image img {
+  width: 515px;
+  padding: 55px;
+  color: #fcfcfc;
+}
+
+.items {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin: -21.5rem 0 0;
+}
+
+.p-1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: -33px -3.3rem;
+}
+
+/* End Small Section */
+
+/* Start Small 2 Section */
+
+.main-image2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: end;
+  margin: 2.2rem 0 0 -23px;
+}
+
+.main-image2 img {
+  width: 515px;
+  padding: 55px;
+  color: #fcfcfc;
+}
+
+.items-2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin: -30rem 0 0 0;
+}
+
+.paragphes h1 {
+  margin-top: 8.5rem;
+  font-size: 4.8rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* End Small 2 Section */
+
+/* Start Hero 2 Section */
+
+.Hero-Items {
+  margin: 6rem 0 0 0;
+}
+
+.image-2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.image-2 img {
+  width: 515px;
+  margin: -103rem 0 0;
+}
+
+/* End Hero 2 Section */
+
+/* Start Other Section */
+
+.Backrgound_Blue_Shape {
+  position: absolute;
+  content: "";
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 455px;
+  margin: -250rem 0;
+  transform: skewY(10.1deg);
+  background-color: #0074ff;
+  clip-path: polygon(100% 50%, 0 100%, 100% 100%);
+  z-index: -1;
+}
+
+.main-content h1 {
+  font-size: 4.5rem;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 1rem;
+  margin-left: 3.5rem;
+  z-index: 1;
+}
+
+.main-content p {
+  font-size: 16.5px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #6b718f;
+  margin-top: 4.5rem;
+}
+
+.mobile-image {
+  margin-top: -16rem;
+}
+
+.mobile-image img {
+  width: 450px;
+}
+
+.custom-box-1 {
+  background-color: #0074ff;
+  display: flex;
+  width: 392.5px;
+  border-radius: 8px;
+  margin-top: -1rem;
+}
+
+.custom-box-1 img {
+  width: 55px;
+  margin-right: 2rem;
+}
+
+.custom-box-1 h2 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  margin: 1rem 0 0 -1.7rem;
+}
+
+.custom-box-1 p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin-top: 0.2rem;
+  margin-right: 4rem;
+  margin-left: -1.5rem;
+}
+
+.custom-box-2 {
+  background-color: #0074ff;
+  display: flex;
+  width: 392.5px;
+  border-radius: 8px;
+  margin-top: 1.5rem;
+}
+
+.custom-box-2 img {
+  width: 55px;
+  margin-right: 2rem;
+}
+
+.custom-box-2 h2 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin: 1rem 0 0 -1.7rem;
+}
+
+.custom-box-2 p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin-top: 0.2rem;
+  margin-right: 4rem;
+  margin-left: -1.5rem;
+}
+
+.custom-box-3 {
+  background-color: #0074ff;
+  display: flex;
+  width: 392.5px;
+  border-radius: 8px;
+  margin-top: -10.5rem;
+  margin-left: 26rem;
+}
+
+.custom-box-3 img {
+  width: 55px;
+  margin-right: 2rem;
+}
+
+.custom-box-3 h2 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin: 1rem 0 0 -1.7rem;
+}
+
+.custom-box-3 p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin-top: 0.2rem;
+  margin-right: 4rem;
+  margin-left: -1.5rem;
+}
+
+.custom-box-4 {
+  background-color: #0074ff;
+  display: flex;
+  width: 392.5px;
+  border-radius: 8px;
+  margin-top: 1.5rem;
+  margin-left: 26rem;
+}
+
+.custom-box-4 img {
+  width: 55px;
+  margin-right: 2rem;
+}
+
+.custom-box-4 h2 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin: 1rem 0 0 -1.7rem;
+}
+
+.custom-box-4 p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin-top: 0.2rem;
+  margin-right: 4rem;
+  margin-left: -1.5rem;
+}
+
+/* End Other Section */
+
+/* Start Footer */
+
+footer {
+  background-color: #0074ff;
+  width: 84.2rem;
+  margin: 5.5rem 0;
+}
+
+.main-image3 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.main-image3 img {
+  width: 202px;
+  margin-top: 1.5rem;
+}
+
+.titels .heading-1 {
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -11rem;
+  margin-right: 2.8rem;
+}
+
+.titels .heading-2 {
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: -10rem;
+  margin-left: 54rem;
+}
+
+.titels p {
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.titels .p2 {
+  margin-right: 1.5rem;
+}
+
+.titels .email {
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.icons-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons-1 img {
+  margin-top: -0.5rem;
+  margin-right: 15rem;
+}
+
+.icons-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons-2 img {
+  margin-top: 1.2rem;
+  margin-right: 15.1rem;
+}
+
+.icons-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons-3 img {
+  margin-top: -0.9rem;
+  margin-right: 15.1rem;
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin: -9.5rem 4.5rem;
+  cursor: pointer;
+}
+
+.icons img {
+  margin: 0;
+}
+
+.copyright {
+  background-color: #361fc6;
+  width: 84.2rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin: 18.8rem 0 0 -4.6rem;
+}
+
+.background .titles {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.titles h1 {
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 200;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 1rem;
+}
+
+.titles .c-1 {
+  color: grey;
+  font-size: 0.9rem;
+  font-weight: 300;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.titles .c-1:hover {
+  cursor: pointer;
+  color: white;
+}
+
+/* End Footer */
+
+/* Start Responsive Of Project */
+
+/* End Responsive Of Project */
