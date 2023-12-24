@@ -657,4 +657,21 @@ footer {
 
 /* Start Responsive Of Project */
 
+/* Tablet And Under */
+
+@media (max-width: 768px) {
+}
+
+/* Mobile */
+
+@media (max-width: 500px) {
+  nav {
+    height: 110px;
+  }
+  nav a {
+    display: none;
+    flex-direction: column;
+  }
+}
+
 /* End Responsive Of Project */
