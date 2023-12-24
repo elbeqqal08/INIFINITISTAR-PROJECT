@@ -1,5 +1,5 @@
-- [ ] Creat Other Section =>
-- [ ] Student Javascript And Practice =>
-- [ ] Creat Effects With Javascript =>
+- [ ] Creat Other Section => finish
+- [ ] Student Javascript And Practice => finish
+- [ ] Creat Effects With Javascript => finish
 - [ ] Creat Responsive DESIGN In Project =>
-- [ ] Add Domain Name =>
+- [ ] Add Domain Name In Project =>
