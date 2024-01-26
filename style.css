@@ -5,7 +5,6 @@
 
 body {
   margin: 0px;
-  height: 100px;
 }
 
 /* Start Global Classes */
@@ -149,6 +148,7 @@ button:hover {
   margin: 0 !important;
   padding: 0 !important;
   width: 515px;
+  height: auto;
 }
 
 /* Start Hero Section */
@@ -178,8 +178,8 @@ button:hover {
 
 .boxes {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
 }
 
 .boxes .box {
@@ -190,6 +190,7 @@ button:hover {
 
 .boxes .box img {
   width: 95px;
+  height: auto;
   margin: 0 6.5rem;
 }
 
@@ -250,6 +251,7 @@ p span {
 
 .image img {
   width: 515px;
+  height: auto;
 }
 
 /* End Hero Section */
@@ -260,15 +262,12 @@ p span {
   display: flex;
   justify-content: flex-start;
   align-items: end;
-  margin: 26.5rem 0 0 -23px;
+  margin: 30rem 0 0 -23px;
 }
 
 .main-image img {
-  margin-top: 1.5rem;
-}
-
-.main-image img {
-  width: 515px;
+  width: 595px;
+  height: auto;
   padding: 55px;
   color: #fcfcfc;
 }
@@ -277,7 +276,7 @@ p span {
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
-  margin: -21.5rem 0 0;
+  margin: -25rem 0 0 0;
 }
 
 .p-1 {
@@ -295,11 +294,12 @@ p span {
   display: flex;
   justify-content: flex-start;
   align-items: end;
-  margin: 2.2rem 0 0 -23px;
+  margin: 2.2rem 0 0 -15px;
 }
 
 .main-image2 img {
-  width: 515px;
+  width: 570px;
+  height: auto;
   padding: 55px;
   color: #fcfcfc;
 }
@@ -312,7 +312,6 @@ p span {
 }
 
 .paragphes h1 {
-  margin-top: 8.5rem;
   font-size: 4.8rem;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
@@ -322,33 +321,75 @@ p span {
 
 /* Start Hero 2 Section */
 
-.Hero-Items {
-  margin: 6rem 0 0 0;
-}
-
-.image-2 {
+/* .image-2 {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  padding: 0 0 -2px;
+  margin: -65rem 0 0;
 }
 
 .image-2 img {
   width: 515px;
-  margin: -103rem 0 0;
-}
+  height: auto;
+} */
 
 /* End Hero 2 Section */
 
 /* Start Other Section */
 
-.Backrgound_Blue_Shape {
+/* .wpex-shape-path {
   position: absolute;
   content: "";
   bottom: 0px;
   left: 0px;
   width: 100%;
   height: 455px;
-  margin: -250rem 0;
+  margin: -249rem 0;
+  transform: skewY(10.1deg);
+  background-color: #0074ff;
+  clip-path: polygon(100% 50%, 0 100%, 100% 100%);
+  z-index: -1;
+}
+
+.other-titel {
+  font-size: 3rem;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 35.5rem 0;
+  z-index: 1;
+}
+
+.other-image {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 0 -2px;
+  margin: -41.2rem -4.6rem;
+}
+
+.other-image img {
+  width: 500px;
+  height: 500px;
+  z-index: 1;
+}
+
+.other-paragphes {
+  font-size: 16.5px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #6b718f;
+  margin: 23rem 0;
+} */
+
+/* .Backrgound_Blue_Shape {
+  position: absolute;
+  content: "";
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: auto;
+  margin: -250.5rem 0;
   transform: skewY(10.1deg);
   background-color: #0074ff;
   clip-path: polygon(100% 50%, 0 100%, 100% 100%);
@@ -357,45 +398,42 @@ p span {
 
 .main-content h1 {
   font-size: 4.5rem;
-  font-weight: 700;
+  font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
-  margin-top: 1rem;
-  margin-left: 3.5rem;
+  margin-top: 36rem;
+  margin-left: 0;
   z-index: 1;
 }
 
 .main-content p {
-  font-size: 16.5px;
+  font-size: 1rem;
   font-weight: 400;
   font-family: Arial, Helvetica, sans-serif;
-  color: #6b718f;
-  margin-top: 4.5rem;
+  margin-top: 2.5rem;
+  color: grey;
 }
 
-.mobile-image {
-  margin-top: -16rem;
-}
-
-.mobile-image img {
-  width: 450px;
+.itemes {
+  z-index: 1;
 }
 
 .custom-box-1 {
   background-color: #0074ff;
   display: flex;
-  width: 392.5px;
+  width: 450px;
   border-radius: 8px;
-  margin-top: -1rem;
+  margin-top: 1.5rem;
 }
 
 .custom-box-1 img {
   width: 55px;
+  height: auto;
   margin-right: 2rem;
 }
 
 .custom-box-1 h2 {
   font-size: 1.1rem;
-  font-weight: 500;
+  font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
   color: #fff;
   margin: 1rem 0 0 -1.7rem;
@@ -414,19 +452,20 @@ p span {
 .custom-box-2 {
   background-color: #0074ff;
   display: flex;
-  width: 392.5px;
+  width: 450px;
   border-radius: 8px;
   margin-top: 1.5rem;
 }
 
 .custom-box-2 img {
   width: 55px;
+  height: auto;
   margin-right: 2rem;
 }
 
 .custom-box-2 h2 {
   font-size: 1.1rem;
-  font-weight: 500;
+  font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
   margin: 1rem 0 0 -1.7rem;
@@ -445,20 +484,21 @@ p span {
 .custom-box-3 {
   background-color: #0074ff;
   display: flex;
-  width: 392.5px;
+  width: 450px;
   border-radius: 8px;
   margin-top: -10.5rem;
-  margin-left: 26rem;
+  margin-left: 29.5rem;
 }
 
 .custom-box-3 img {
   width: 55px;
+  height: auto;
   margin-right: 2rem;
 }
 
 .custom-box-3 h2 {
   font-size: 1.1rem;
-  font-weight: 500;
+  font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
   margin: 1rem 0 0 -1.7rem;
@@ -477,20 +517,21 @@ p span {
 .custom-box-4 {
   background-color: #0074ff;
   display: flex;
-  width: 392.5px;
+  width: 450px;
   border-radius: 8px;
   margin-top: 1.5rem;
-  margin-left: 26rem;
+  margin-left: 29.5rem;
 }
 
 .custom-box-4 img {
   width: 55px;
+  height: auto;
   margin-right: 2rem;
 }
 
 .custom-box-4 h2 {
   font-size: 1.1rem;
-  font-weight: 500;
+  font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
   margin: 1rem 0 0 -1.7rem;
@@ -506,6 +547,13 @@ p span {
   margin-left: -1.5rem;
 }
 
+.mobile-image img {
+  width: 515px;
+  height: auto;
+  margin: -14.8rem -4rem;
+  z-index: -1;
+} */
+
 /* End Other Section */
 
 /* Start Footer */
@@ -513,7 +561,8 @@ p span {
 footer {
   background-color: #0074ff;
   width: 84.2rem;
-  margin: 5.5rem 0;
+  height: auto;
+  margin: 6rem 0 0;
 }
 
 .main-image3 {
@@ -524,6 +573,7 @@ footer {
 
 .main-image3 img {
   width: 202px;
+  height: auto;
   margin-top: 1.5rem;
 }
 
@@ -621,6 +671,7 @@ footer {
 .copyright {
   background-color: #361fc6;
   width: 84.2rem;
+  height: auto;
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
@@ -654,24 +705,3 @@ footer {
 }
 
 /* End Footer */
-
-/* Start Responsive Of Project */
-
-/* Tablet And Under */
-
-@media (max-width: 768px) {
-}
-
-/* Mobile */
-
-@media (max-width: 500px) {
-  nav {
-    height: 110px;
-  }
-  nav a {
-    display: none;
-    flex-direction: column;
-  }
-}
-
-/* End Responsive Of Project */
