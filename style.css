@@ -4,6 +4,7 @@
 }
 
 body {
+  margin: 400px;
   margin: 0px;
 }
 
@@ -321,18 +322,17 @@ p span {
 
 /* Start Hero 2 Section */
 
-/* .image-2 {
+.image-2 {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
-  padding: 0 0 -2px;
-  margin: -65rem 0 0;
+  align-items: flex-start;
 }
 
 .image-2 img {
   width: 515px;
   height: auto;
-} */
+  margin: -65rem 0 0;
+}
 
 /* End Hero 2 Section */
 
@@ -385,6 +385,7 @@ p span {
 /* .Backrgound_Blue_Shape {
   position: absolute;
   content: "";
+  top: 0;
   bottom: 0px;
   left: 0px;
   width: 100%;
@@ -548,7 +549,7 @@ p span {
 }
 
 .mobile-image img {
-  width: 515px;
+  width: 415px;
   height: auto;
   margin: -14.8rem -4rem;
   z-index: -1;
