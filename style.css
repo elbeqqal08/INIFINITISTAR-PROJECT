@@ -195,6 +195,12 @@ button:hover {
   margin: 0 6.5rem;
 }
 
+.boxes .box .box-er {
+  width: 95px;
+  height: auto;
+  margin: 0 7.2rem;
+}
+
 .boxes .box .br-1 {
   margin: 0 7.3rem;
 }
@@ -382,23 +388,26 @@ p span {
   margin: 23rem 0;
 } */
 
-/* .Backrgound_Blue_Shape {
+.Hero-Items-Er {
+  margin-top: -32rem;
+}
+
+.Backrgound_Blue_Shape {
   position: absolute;
-  content: "";
   top: 0;
   bottom: 0px;
   left: 0px;
   width: 100%;
-  height: auto;
-  margin: -250.5rem 0;
-  transform: skewY(10.1deg);
+  height: 601px;
+  margin: 253rem 0;
   background-color: #0074ff;
+  transform: skewY(10.1deg);
   clip-path: polygon(100% 50%, 0 100%, 100% 100%);
   z-index: -1;
 }
 
 .main-content h1 {
-  font-size: 4.5rem;
+  font-size: 5.5rem;
   font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 36rem;
@@ -410,7 +419,7 @@ p span {
   font-size: 1rem;
   font-weight: 400;
   font-family: Arial, Helvetica, sans-serif;
-  margin-top: 2.5rem;
+  margin-top: 5.5rem;
   color: grey;
 }
 
@@ -551,9 +560,9 @@ p span {
 .mobile-image img {
   width: 415px;
   height: auto;
-  margin: -14.8rem -4rem;
+  margin: -20.5rem 0 0 -4rem;
   z-index: -1;
-} */
+}
 
 /* End Other Section */
 
