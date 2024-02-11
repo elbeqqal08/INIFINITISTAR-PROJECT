@@ -1,34 +1,17 @@
-/* Start Responsive Computer */
+/* Start Resposnive Mobile */
 
-@media (min-width: 768px) {
-  /* Nav Bar
+@media (min-width: 300px) {
+  /* Nav Bar */
 
   .container {
-    width: auto;
+    width: 300px;
     margin: 0 auto;
   }
 
   .info {
     display: flex;
-    justify-content: center;
-    align-items: space-between;
-    cursor: pointer;
-  }
-
-  img {
-    padding: 15px;
-  }
-
-  nav {
-    display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
   }
-
-  nav ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
-    list-style: none;
-  } */
 }
