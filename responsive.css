@@ -1,6 +1,6 @@
 /* Start Resposnive Mobile */
 
-@media (min-width: 300px) {
+@media (max-width: 300px) {
   /* Nav Bar */
 
   .container {
@@ -12,6 +12,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    cursor: pointer;
+  }
+
+  .info .wpex-hamburger-icon {
+    background-image: url("./images/7466709.png");
+    background-image: url("./images/2997911.png");
+    background-repeat: no-repeat;
   }
 }
