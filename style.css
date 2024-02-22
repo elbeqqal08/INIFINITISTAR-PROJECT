@@ -26,6 +26,11 @@ body {
   cursor: pointer;
 }
 
+.info .image-icon-respo-1,
+.info .image-icon-respo-2 {
+  display: none;
+}
+
 img {
   padding: 15px;
 }
@@ -72,6 +77,10 @@ button {
   border: 2px solid blue;
   cursor: pointer;
   border-radius: 6px;
+}
+
+.btn-respo {
+  display: none;
 }
 
 button:hover {
