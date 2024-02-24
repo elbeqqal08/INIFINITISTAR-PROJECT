@@ -4,7 +4,7 @@
   /* Nav Bar */
 
   .container {
-    width: 300px;
+    width: auto;
     margin: 0 auto;
   }
 
@@ -67,6 +67,10 @@
     font-family: Arial, Helvetica, sans-serif;
   }
 
+  button {
+    display: none;
+  }
+
   .link-1 {
     display: flex;
     justify-content: flex-start;
@@ -119,27 +123,20 @@
     font-family: Arial, Helvetica, sans-serif;
   }
 
-  button {
-    display: none;
+  .wpex-border-t {
+    border-top-width: 1px;
   }
 
-  .wpex-width-1 {
-    border-top-width: 18px;
-    border-bottom-width: 18px;
-  }
-
-  .wpex-width-0 {
-    border-width: 1px;
-    border-left-width: 0;
-    border-right-width: 0;
+  .wpex-border-width {
+    border-width: 0;
   }
 
   .wpex-style-color {
-    border-style: solid;
     border-color: black;
+    border-style: solid;
   }
 
-  .wpex-padding-respo {
+  .wpex-py-10 {
     padding-top: 10px;
     padding-bottom: 10px;
   }
@@ -171,7 +168,7 @@
   nav ul a {
     text-decoration: none;
     color: grey;
-    padding: 8px;
+    padding: 1px;
     font-size: 1rem;
     font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;

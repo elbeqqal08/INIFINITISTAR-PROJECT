@@ -3,3 +3,5 @@
 - [ ] Create Effects With Javascript => finish
 - [ ] Create Responsive DESIGN In Project =>
 - [ ] Hosting Project =>
+- [ ] a 1 + a 2 li => span => a => (a + span);
+- [ ] a 3 li => span => (span + a + span);
