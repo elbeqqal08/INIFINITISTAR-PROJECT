@@ -158,35 +158,13 @@ button:hover {
   display: none;
 }
 
-.link-r-1,
-.link-r-2,
+.links-r a,
 .link-r-3 {
   display: none;
 }
 
 .icon-close {
   display: none;
-}
-
-.link-r-1 {
-  font-size: 0.2rem;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 700;
-  color: #616161;
-}
-
-.link-r-2 {
-  font-size: 0.2rem;
-  font-weight: 700;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #616161;
-}
-
-.link-r-3 {
-  font-size: 0.4rem;
-  font-weight: 700;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #616161;
 }
 
 /* Start Hero Section */
