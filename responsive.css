@@ -3,53 +3,15 @@
 @media (max-width: 300px) {
   /* Nav Bar */
 
-  .container {
-    width: auto;
-    margin: 0 auto;
-  }
-
-  .info img {
-    margin-top: -8rem;
-    margin-left: -1.5rem;
-    width: 245px;
-  }
-
-  .info {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: -3rem;
-    margin-left: 1.5rem;
-    margin-right: 2.2rem;
-  }
-
-  .nav-mob {
+  .nav-mob-header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
 
-  .nav-mob .logo {
-    width: auto;
-  }
-
-  .links-r a {
-    font-size: 1.5rem;
-    font-weight: 700;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #616161;
-  }
-
-  .link-r-3 {
-    font-size: 0.4rem;
-    font-weight: 700;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #616161;
-  }
-
+  .info,
   .link-1,
-  .link-2,
-  button {
+  .link-2 {
     display: none;
   }
 }

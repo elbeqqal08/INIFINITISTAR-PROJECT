@@ -32,21 +32,20 @@ img {
 
 nav {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
+  align-items: start;
+  text-align: center;
+  margin: -2.6rem 0rem;
 }
 
-nav ul {
-  display: flex;
-  justify-content: end;
-  align-items: end;
+nav li {
   list-style: none;
 }
 
 nav a {
   text-decoration: none;
   padding: 8px;
-  margin: 3px;
+  margin: 10px;
   color: black;
   font-size: 1.2rem;
   font-weight: 600;
@@ -64,6 +63,8 @@ nav a:hover {
 button {
   padding: 14px 8.4px 14px 8.4px;
   margin: 18px;
+  margin-top: -0.4rem;
+  margin-right: -45rem;
   background-color: blue;
   color: white;
   font-size: 1.1rem;
@@ -154,16 +155,7 @@ button:hover {
 
 /* Nav Mobile */
 
-.info-logo {
-  display: none;
-}
-
-.links-r a,
-.link-r-3 {
-  display: none;
-}
-
-.icon-close {
+.nav-mob-header-container {
   display: none;
 }
 

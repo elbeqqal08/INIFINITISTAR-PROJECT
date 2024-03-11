@@ -1,5 +1,6 @@
-- [ ] Create Nav and should display only in 300px
-  - [ ] Create logo + menu icon in HTML
-  - [ ] Align Logo + menu icon in CSS
-  - [ ] Create Side Bar in HTML + Test
-  - [ ] Create Div Close Icon + Links In <SideBar>
+- [x] Create Nav and should display only in 300px
+  - [x] Create logo + menu icon in HTML
+  - [x] Align Logo + menu icon in CSS
+  - [x] Create Side Bar in HTML + Test
+  - [x] Create Div Close Icon + Links In <SideBar>
+- [x] Add folder name icons
