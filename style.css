@@ -34,7 +34,6 @@ nav {
   display: flex;
   justify-content: center;
   align-items: start;
-  text-align: center;
   margin: -2.6rem 0rem;
 }
 
@@ -63,7 +62,7 @@ nav a:hover {
 button {
   padding: 14px 8.4px 14px 8.4px;
   margin: 18px;
-  margin-top: -0.4rem;
+  margin-top: -0.8rem;
   margin-right: -45rem;
   background-color: blue;
   color: white;
@@ -107,7 +106,7 @@ button:hover {
 
 .btn-1 {
   padding: 1rem 2rem;
-  margin: 18px;
+  margin: 4.5px;
   background-color: darkblue;
   color: white;
   font-size: 1rem;
@@ -125,7 +124,7 @@ button:hover {
 
 .btn-2 {
   padding: 1rem 2rem;
-  margin: -7px;
+  margin: 0 0.5rem;
   background-color: white;
   color: darkblue;
   border: 3.5px solid blue;
@@ -144,6 +143,7 @@ button:hover {
 
 .right {
   padding: 2rem;
+  margin-top: 3rem;
 }
 
 .right img {
@@ -158,6 +158,12 @@ button:hover {
 .nav-mob-header-container {
   display: none;
 }
+
+.links a {
+  display: none;
+}
+
+/* What We Do Section Mob */
 
 /* Start Hero Section */
 
@@ -259,7 +265,7 @@ p span {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin: -57rem 0 0;
+  margin: -55rem 0 0;
 }
 
 .image img {
@@ -268,6 +274,8 @@ p span {
 }
 
 /* End Hero Section */
+
+/* Hero Section Mob */
 
 /* Start Small Section */
 
