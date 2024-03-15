@@ -159,6 +159,11 @@ button:hover {
   display: none;
 }
 
+.nav-container-image,
+.nav-container-icons {
+  display: none;
+}
+
 .links a {
   display: none;
 }
