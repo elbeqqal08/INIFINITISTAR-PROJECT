@@ -68,11 +68,13 @@
 
   .hero-container {
     display: flex;
-    justify-content: end;
-    align-items: start;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
   }
 
   .left {
+    margin: 0;
     padding: 0;
   }
 
@@ -92,7 +94,8 @@
 
   .btn-1 {
     display: block;
-    margin: 1rem 0;
+    margin: 0;
+    padding: 0;
     width: 100%;
   }
 
@@ -100,6 +103,17 @@
     display: block;
     width: 100%;
     margin: 0;
+  }
+
+  .right {
+    margin: 0;
+    padding: 0;
+  }
+
+  .right img {
+    width: 225px;
+    margin: 0;
+    padding: 0;
   }
 
   /* What We Do Section */

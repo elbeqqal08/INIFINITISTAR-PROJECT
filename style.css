@@ -97,9 +97,6 @@ button:hover {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.9;
   color: grey;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
   margin: 0 !important;
   padding: 0 !important;
 }
