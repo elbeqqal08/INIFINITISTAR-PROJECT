@@ -163,6 +163,12 @@ button:hover {
   display: none;
 }
 
+/* First Section Mob */
+
+.hero-container-mob {
+  display: none;
+}
+
 /* What We Do Section Mob */
 
 /* Start Hero Section */
