@@ -68,44 +68,28 @@
   /* First Section */
 
   .hero-container {
-    display: none;
+    display: flex;
+    justify-content: end;
+    align-items: end;
   }
 
-  .hero-container-2-mob {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-  }
-
-  .left-re {
-    display: flex;
-    margin-top: 0;
-    margin-bottom: 2.5rem;
+  .left {
+    margin: 0;
     padding: 0;
   }
 
-  .left-re h1 {
-    font-size: 4.5rem;
+  .left h1 {
+    font-size: 4rem;
     font-weight: 800;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
   }
 
-  .btn-2-mob {
-    margin: 0;
-    padding: 0;
-    font-size: 0.5rem;
+  .left p {
+    font-size: 0.8rem;
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
-    color: darkblue;
-    border: 3.5px solid blue;
-    border-radius: 6px;
-    cursor: pointer;
-  }
-
-  .btn-2-mob:hover {
-    background-color: chocolate;
-    color: white;
+    color: grey;
   }
 
   /* What We Do Section */
